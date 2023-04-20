@@ -1,3 +1,6 @@
+# Running the script using docker 
+docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:8.0-cli php console.php -a {action} -f {file}
+
 # Neuffer developers-test
 
 We have prepared for you simple test task what as we believe, allow us to estimate your experience.
