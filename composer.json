@@ -1,0 +1,21 @@
+{
+    "name": "mina/developers-test",
+    "description": "A test task",
+    "type": "project",
+    "license": "proprietry",
+    "autoload": {
+        "psr-4": {
+            "Mina\\DevelopersTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mina",
+            "email": "mina.r.meshriky@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
